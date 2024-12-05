@@ -1,0 +1,11 @@
+.overall{
+    background-color: rgb(33,33,33);
+    width: 15vw;
+}
+.bottom{
+    margin-top: 5px;
+    margin-left: 15px;
+    display: flex;
+    gap: 1.2vh;
+    flex-direction: column;
+}

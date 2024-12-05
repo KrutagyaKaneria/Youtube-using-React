@@ -1,0 +1,16 @@
+.overall{
+    background-color: rgb(70,70,70);
+    width: 15vw;
+}
+.line{
+    height: 3px;
+    width: 13vw;
+    background-color: grey;
+}
+.middle{
+    margin-top: 5px;
+    margin-left: 15px;
+    display: flex;
+    gap: 1.2vh;
+    flex-direction: column;
+}

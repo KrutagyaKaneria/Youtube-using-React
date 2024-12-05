@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+.top_logo{
+    display: flex;
+    gap: 18px;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+.button_txt{
+    color:white
+}
+.button{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.top{
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    gap: 1.2vh;
+    flex-direction: column;
+}
+.line{
+    height: 3px;
+    width: 13vw;
+    background-color: grey;
+}
+.left{
+    background-color: rgb(33,33,33);
+    width: 15vw;
+}
