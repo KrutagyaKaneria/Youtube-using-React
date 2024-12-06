@@ -1,10 +1,10 @@
-import './Sidebar.css'
-import hambarger from '../assets/hambarger.png'
-import home from '../assets/home.png'
-import explore from '../assets/explore.png'
-import sorts from '../assets/shorts.png'
-import sub from '../assets/subscription.png'
-import logo from '../assets/Youtube logo.png'
+import './Sec1.css'
+import hambarger from '../../assets/hambarger.png'
+import home from '../../assets/home.png'
+import explore from '../../assets/explore.png'
+import sorts from '../../assets/shorts.png'
+import sub from '../../assets/subscription.png'
+import logo from '../../assets/Youtube logo.png'
 
 
 function Left(){

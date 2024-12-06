@@ -1,10 +1,10 @@
 import './Sec3.css'
-import library from '../assets/library.png'
-import history from '../assets/history.png'
-import yourvideo from '../assets/your_video.png'
-import watchhlater from '../assets/watch_later.png'
-import liked from '../assets/liked.png'
-import downarrow from '../assets/down_arrow.png'
+import library from '../../assets/library.png'
+import history from '../../assets/history.png'
+import yourvideo from '../../assets/your_video.png'
+import watchhlater from '../../assets/watch_later.png'
+import liked from '../../assets/liked.png'
+import downarrow from '../../assets/down_arrow.png'
 
 function Part3(){
     const data = [

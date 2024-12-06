@@ -1,16 +1,15 @@
-.overall{
-    background-color: rgb(70,70,70);
-    width: 15vw;
-}
 .line{
-    height: 3px;
-    width: 13vw;
+    height: 1px;
+    width: 14vw;
     background-color: grey;
 }
 .middle{
-    margin-top: 5px;
     margin-left: 15px;
     display: flex;
-    gap: 1.2vh;
+    gap: 11px;
     flex-direction: column;
+}
+.overall{
+    margin-top: 12px;
+    margin-bottom: 12px;
 }

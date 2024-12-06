@@ -1,0 +1,56 @@
+.navbar{
+    padding-left: 22vw;
+    display: flex;
+    margin-top: 1vw;
+    gap: 7vw;
+}
+.righttop{
+    margin-top: 5px;
+    display: flex;
+    gap: 2vw;
+    justify-content: space-around;
+    margin-right: 1vw;
+}
+.middle1{
+    display: flex;
+}
+.middle1 input{
+    display: flex;
+    border: 2px solid rgb(48, 46, 46);
+    background-color:rgb(2, 2, 2);
+    width: 40vw;
+    height: 4.9vh;
+    margin-left: -13vh;
+    padding-left: 15px;
+}
+.middle1 :nth-child(3){
+    margin-left: 1vw;
+}
+.final{
+    display: flex;
+}
+.text1{
+    display: flex;
+}
+.searchbar{
+    padding-right: 1vh;
+}
+.searchion{
+    img{ 
+        background-color: rgb(50,51,51);
+        height: 40px;
+    }
+}
+.mic{
+    margin-top: 0.6vh;
+   img{
+    height: 30px;
+   }
+}
+.line2{
+    width: 84vw;
+    height: 1px;
+    background-color: gray;
+    margin-top: 5px;
+
+}
