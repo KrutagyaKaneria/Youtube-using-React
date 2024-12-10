@@ -6,7 +6,7 @@ function Bigsec1 (){
     return(
         <>
         <div className="all">
-            <Sec1 />
+            {/* <Sec1 /> */}
             <Sec2 />
             <Sec3 />
         </div>
