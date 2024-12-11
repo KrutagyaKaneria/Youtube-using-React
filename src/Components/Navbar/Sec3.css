@@ -201,7 +201,7 @@
 .information {
     padding: 10px;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     gap: 10px;
 }
 
@@ -222,6 +222,12 @@
     color: white;
     margin-bottom: 5px;
     line-height: 1.4;
+}
+
+.info2{
+    color: white;
+    font-size: 0.8rem;
+    font-family: sans-serif;
 }
 
 .imgandtxt {
@@ -248,7 +254,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: transparent;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -256,8 +262,7 @@
 
 .video-player iframe {
     width: 100%;
-    max-width: 800px;
-    height: 450px;
+    height: 65vh;
     border: none;
     border-radius: 8px;
 }
@@ -278,3 +283,10 @@
 .video-player button:hover {
     background-color: #e60000;
 }
+.set-max-results-button{
+    border: 2px solid black;
+    border-radius: 20%;
+    color: black;
+}
+
+

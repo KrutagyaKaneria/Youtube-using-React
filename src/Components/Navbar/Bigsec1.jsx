@@ -7,8 +7,9 @@ function Bigsec1 (){
         <>
         <div className="all">
             {/* <Sec1 /> */}
-            <Sec2 />
+            {/* <Sec2 /> */}
             <Sec3 />
+            
         </div>
         </>
     )
