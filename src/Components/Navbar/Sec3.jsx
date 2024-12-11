@@ -142,7 +142,7 @@ function Sec3() {
     const fetchVideos = async (query) => {
         try {
             const response = await fetch(
-                `${BASE_URL}?part=snippet&maxResults=10&q=${query}&key=${API_KEY}`
+                `${BASE_URL}?part=snippet&maxResults=50&q=${query}&key=${API_KEY}`
             );
             const data = await response.json();
             setVideos(data.items || []);
