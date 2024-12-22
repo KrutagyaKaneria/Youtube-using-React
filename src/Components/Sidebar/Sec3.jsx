@@ -13,7 +13,10 @@ function Part3(){
         {id:3,img:yourvideo,txt:"Your videos"},
         {id:4,img:watchhlater,txt:"Watch later"},
         {id:5,img:liked,txt:"Liked videos"},
-        {id:6,img:downarrow,txt:"Show more"}
+        {id:6,img:downarrow,txt:"Show more"},
+        {id:7,img:yourvideo,txt:"Your videos"},
+        
+        
     ]
 
     return(

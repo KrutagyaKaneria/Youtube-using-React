@@ -57,3 +57,50 @@
 .textbox{
     color: white;
 }
+.set-max-results-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #4caf50; /* Green for distinction */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.set-max-results-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.set-max-results-button:focus {
+    outline: none;
+    box-shadow: 0 0 4px #4caf50;
+}
+
+/* Align the Set Max Results Button and Input near the Search Bar */
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.max-results-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.max-results-input {
+    padding: 8px;
+    font-size: 14px;
+    width: 120px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}

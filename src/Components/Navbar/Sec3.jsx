@@ -140,7 +140,7 @@ import { useState } from 'react';
 function Sec3() {
     const [videos, setVideos] = useState([]);
     const [selectedVideoId, setSelectedVideoId] = useState(null);
-    const [maxResults, setMaxResults] = useState(10);
+
 
     const API_KEY = 'AIzaSyCPQCmdlUqzp62dHQMYBhbwSHVTGK1f_FM';
     const BASE_URL = 'https://www.googleapis.com/youtube/v3/search';
@@ -157,16 +157,6 @@ function Sec3() {
             });
     };
 
-    // Function to change the maximum number of results
-    const handleMaxResultsChange = () => {
-        const input = prompt("Enter the number of videos to display:", maxResults);
-        const newMaxResults = parseInt(input, 10);
-        if (!isNaN(newMaxResults) && newMaxResults > 0) {
-            setMaxResults(newMaxResults);
-        } else {
-            alert("Please enter a valid number greater than 0.");
-        }
-    };
 
     // Variable to store the video components
     const videoComponents = videos.map((video) => (
@@ -190,9 +180,6 @@ function Sec3() {
 
     return (
         <>
-            <button onClick={handleMaxResultsChange} className="set-max-results-button">
-                Set Number of Videos
-            </button>
             <Sec2 onTopicSelect={fetchVideos} />
             <Sec1 onSearch={fetchVideos} />
             <div className="alltogether">
